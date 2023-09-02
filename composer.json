@@ -1,12 +1,14 @@
 {
     "name": "jaropackeds/jaropackeds",
     "description": "Moj pierwszy packed wyslany na githuba",
+    "type": "library",
     "authors": [
         {
             "name": "jaroslawberek",
             "email": "berekjaroslaw@gmail.com"
         }
     ],
+    "license": "proprietary",
     "require": {},
     "scripts": {
         "run-server": "php -S localhost:8800"
