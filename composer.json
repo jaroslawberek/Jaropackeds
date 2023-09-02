@@ -8,6 +8,7 @@
             "email": "berekjaroslaw@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "license": "proprietary",
     "require": {},
     "scripts": {
