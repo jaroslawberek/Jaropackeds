@@ -1,0 +1,25 @@
+{
+    "name": "jaropackeds/jaropackeds",
+    "description": "Moj pierwszy packed wyslany na githuba",
+    "authors": [
+        {
+            "name": "jaroslawberek",
+            "email": "berekjaroslaw@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "run-server": "php -S localhost:8800"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "autoload": {
+        "psr-4": {
+            "Jaropackeds\\Boxess\\": "src/Boxess"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
